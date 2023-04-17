@@ -6,6 +6,10 @@ import "bootstrap/dist/css/bootstrap.css";
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
+  function toggleNav() {
+    setIsNavExpanded(!isNavExpanded);
+  }
+
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
@@ -14,7 +18,7 @@ function Navbar() {
       <button
         className="hamburger"
         onClick={() => {
-          setIsNavExpanded(!isNavExpanded);
+          toggleNav();
         }}
       >
         <svg
@@ -31,9 +35,7 @@ function Navbar() {
         </svg>
       </button>
       <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
+        className={`navigation-menu ${isNavExpanded ? "expanded" : ""}`}
       >
         <ul>
           <li>
