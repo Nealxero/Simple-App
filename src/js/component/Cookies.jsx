@@ -32,11 +32,11 @@ const CookieBanner = () => {
 
   return (
     
-     
-        <div className="cookie-banner">
+     <></>
+       /* <div className="cookie-banner">
           <p>This website uses cookies to ensure you get the best experience.</p>
           <button onClick={handleAccept}>Accept</button>
-        </div>
+        </div> */
       
     
   );
