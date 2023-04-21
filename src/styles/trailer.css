@@ -5,9 +5,30 @@
     flex-direction: column;
 }
 
-#Trailer p {
+#Trailer h1 {
     font-size: 50px;
     margin-right: 10px
+}
+
+#Trailer h3 { 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: justify;
+   text-justify: inter-word;
+}
+#Trailer p {
+    font-size: 30px;
+    margin-right: 10px
+}
+
+#Horario {
+    text-align: center;
+    width: 400px;
+    font-size: 30px;
 }
 
 #Trailer iframe {
@@ -18,3 +39,4 @@
     border-top: 1px solid black;
     margin: 20px 0;
 }
+

@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        MacroSoft
+        <img src="https://arcadeplanet.es/wp-content/uploads/2021/09/logo-carga-1.png" ></img>
       </a>
       <button
         className="hamburger"

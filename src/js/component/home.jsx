@@ -3,6 +3,7 @@ import Navbar from "./Navbar.js";
 import Header from "./header.jsx";
 import CookieBanner from "./Cookies.jsx";
 import Content from "./Content.jsx";
+import Nosotros from "./Nosotros.jsx";
 //create your first component
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <Content />
+      <Nosotros/>
       <CookieBanner />
     </div>
   );
