@@ -5,6 +5,11 @@
     flex-direction: column;
 }
 
+#Trailer h2 {
+     font-size: 20px;
+     width: 600px;
+}
+
 #Trailer h1 {
     font-size: 50px;
     margin-right: 10px
