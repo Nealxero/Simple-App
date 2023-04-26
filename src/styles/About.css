@@ -1,9 +1,54 @@
-h3 { 
+.social-icons-container {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    
+  }
+  .social-title { 
+    justify-content: center;
     text-align: center;
-    width: 80%;
-    font-size: 20px;
-    padding-top: 50px;
-    text-align: justify;
-   text-justify: inter-word;}
+  }
+  .social-icon-T, .social-icon-F, .social-icon-I {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  .icon-F {
+    font-size: 8vh;
+    color: #1452ed; /* Facebook blue */
+    transition: all 0.3s ease;
+  }
+  .icon-I {
+    font-size: 8vh;
+    color: #c32aa3; /* Facebook blue */
+    transition: all 0.3s ease;
+  }
+  .icon-T {
+    font-size: 8vh;
+    color: #00a4f6; /* Facebook blue */
+    transition: all 0.3s ease;
+  }
+
+.icon-T:hover {
+  color: #52c3fb;
+  
+}
+
+.icon-I:hover {
+  color: #e948c6
+}
+
+.icon-F:hover {
+  color: #3a72ff
+}
+  @media screen and (max-width: 768px) {
+    .icon { }
+  }

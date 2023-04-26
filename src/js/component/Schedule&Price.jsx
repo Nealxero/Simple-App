@@ -14,6 +14,7 @@ const ArcadeScheduleAndPrices = () => {
         marginTop: "20px",
         border: "1px solid black",
         maxWidth: "500px",
+        borderRadius: "20%"
       }}
     >
       <div style={{ margin: "10px", color: "#C9A86A" }}>
