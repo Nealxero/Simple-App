@@ -1,0 +1,36 @@
+#PriceBox {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    border: 1px solid black ;
+    max-width: 620px;
+    border-radius:5% ;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    box-shadow: rgb(118, 106, 0) 0px 20px 30px -10px;
+  }
+  
+  .ScheduleStyle { 
+      margin: 1rem;
+      color: #C9A86A
+  }
+  
+  .PriceStyle { 
+      margin:1rem;
+      color: green
+  }
+  
+  .ExtraStyle { 
+      margin: 1rem;
+      font-family: 'Press Start 2P', cursive;
+  }
+  
+  .Disclaimer { 
+      color:red
+  }

@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { useState } from "react";
+import ReactPlayer from 'react-player';
 import "/workspace/Simple-App/src/styles/header.css";
 
 
@@ -13,16 +14,18 @@ function Header() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} id="headerCar">
-      <Carousel.Item interval={2500}>
-        <img
-          className="d-block w-100"
-          src="https://elcomercio.pe/resizer/r6qahtZt8nbZr8J-tNc6tjNK74Y=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/YWHPP35DDRCNFJFGRLHGYC3V6M.jpg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+      <Carousel.Item interval={11111110} className="embed-responsive.embed-responsive-16by9">
+      <ReactPlayer
+  url="https://www.youtube.com/embed/_SluAK6cWvM?autoplay=1&enablejsapi=1&loop=1&mute=1&modestbranding=1&showinfo=0&controls=0&disablePictureInPicture=1"
+  playing
+  loop
+  muted
+  width="100%"
+  height="650px"
+  top='50%'
+/>
+
+       
       </Carousel.Item >
       <Carousel.Item interval={2500}>
         <img
@@ -31,10 +34,6 @@ function Header() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2500}>
         <img
@@ -43,12 +42,8 @@ function Header() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        
+        
       </Carousel.Item>
     </Carousel>
   );
