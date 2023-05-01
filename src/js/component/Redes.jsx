@@ -3,7 +3,7 @@ import "/workspace/Simple-App/src/styles/About.css";
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 
-const Nosotros = () => { 
+const Redes = () => { 
 return (  <div className="social-title"> <h4>Siguenos en nuestras redes sociales</h4>
 <div className="social-icons-container">
 
@@ -27,4 +27,4 @@ return (  <div className="social-title"> <h4>Siguenos en nuestras redes sociales
 )
 }
 
-export default Nosotros;
+export default Redes;

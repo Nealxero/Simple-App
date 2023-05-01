@@ -3,7 +3,7 @@ import Navbar from "./Navbar.js";
 import Header from "./header.jsx";
 import CookieBanner from "./Cookies.jsx";
 import Content from "./Content.jsx";
-import Nosotros from "./Nosotros.jsx";
+import Redes from "./Redes.jsx";
 import ArcadeScheduleAndPrices from "./Schedule&Price.jsx";
 //create your first component
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <ArcadeScheduleAndPrices/>
       <Content />
-      <Nosotros/>
+      <Redes/>
       <CookieBanner />
     </div>
   );

@@ -5,8 +5,6 @@
   flex-direction: column;
 }
 
-
-
 #Trailer h2 {
   font-size: 20px;
   width: 600px;
@@ -31,7 +29,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: #000000;
-  text-shadow: 2px 2px #838383;
+  text-shadow: 1px 1px #838383;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -103,11 +101,29 @@
       font-size: 14px;
       padding: 8px 16px;
     }
+
+    .MapEmbed {
+      width: 90%;
+      height: 300px;
+    }
+
+    .YtbEmbed {
+      width: 90%;
+      height: 300px;
+    }
   }
 
 @media (max-width: 768px) {
   .card-group {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .MapEmbed {
+    width: 90%;
+    height: 300px;
+  }
+  .YtbEmbed {
+    width: 90%;
+    height: 300px;
   }
 }
 

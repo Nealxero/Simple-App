@@ -35,8 +35,8 @@ const Content = () => {
       <a href="https://arcadeplanet.es/listado">
         <button className="MachineBtn"> Haz Click Aqui </button>
       </a>
-      <iframe
-        width="60%"
+      <iframe className="YtbEmbed"
+        width="70%"
         height="450"
         src="https://www.youtube.com/embed/UPPAIdcbagI"
         title="YouTube video player"
@@ -46,9 +46,9 @@ const Content = () => {
       ></iframe>
 
       <p>C. Siroco, 17, 41702 Dos Hermanas, Sevilla</p>
-      <iframe
+      <iframe className="MapEmbed"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.049458193789!2d-5.925111588648594!3d37.27025427200046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126cdf33ff7b0f%3A0x1369c886e03487df!2sArcade%20Planet%20-%20Sevilla%20Retro!5e0!3m2!1ses!2ses!4v1681913289365!5m2!1ses!2ses"
-        width="60%"
+        width="70%"
         height="450"
         allowfullscreen=""
         loading="lazy"
