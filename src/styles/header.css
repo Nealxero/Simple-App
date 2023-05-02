@@ -36,6 +36,10 @@
       height: 400px;
     }
     
+    #headerCard img { 
+      
+      top: 90px;
+    }
     
    
   }

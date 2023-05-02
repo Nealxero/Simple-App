@@ -1,5 +1,5 @@
 .navigation {
-  height: 20%;
+  height: 150px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -17,10 +17,10 @@
   margin-left: 1rem;
   display: flex;
   align-items: center;
-  
+  width: 10%;
 }
 .brand-name img { 
-max-width: 10% !important;
+max-width: 120% ;
 
 }
 .brand-name:hover {
@@ -47,17 +47,15 @@ max-width: 10% !important;
   text-decoration: none;
   display: block;
   width: 100%;
-  color: rgb(255, 255, 255);
+  color: rgb(115, 115, 255);
   border-bottom: 2px, solid, transparent ;
   position: relative;
-  
-  
+  font-size: 25px;
+  font-weight: bolder;
 }
-.navigation-menu li a:hover {
-    color: blue;
-  }
+
   
-.navigation-menu li a:hover::after { /* Add this block */
+.navigation-menu li a:hover::after { 
   content: '';
   position: absolute;
   width: 100%;
@@ -69,8 +67,8 @@ max-width: 10% !important;
 
   .hamburger {
     border: 0;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     padding: 0.5rem;
     border-radius: 50%;
     background-color: #3b7a00;
@@ -83,27 +81,33 @@ max-width: 10% !important;
     display: none;
     z-index: 2;
   }
-.hamburger:hover {
-  background-color: #009b9b;
-}
 
 @media screen and (max-width: 768px) {
   .hamburger {
-    display: block;
+    display: flex;
+    margin: auto;
+    flex-direction: row;  
+    position: fixed;
+    top: 60px;
   }
 }
 
 @media screen and (max-width: 768px) {
+
+  .navigation { 
+    z-index: 9999;
+    position: fixed;
+  }
   .navigation-menu ul {
     display: none;
   }
   .navigation-menu ul {
     position: fixed;
+    margin-top:90px ;
     top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
     background-color: rgba(0, 0, 0, 0);
     border-top: 1px solid black;
   
@@ -117,16 +121,27 @@ max-width: 10% !important;
     width: 100%;
     padding: 1.5rem 0;
   }
-  .navigation-menu li:hover {
-    background-color: #000000;
-  }
+  
   .navigation-menu ul {
     display: none;
   }
   .navigation-menu.expanded ul {
     display: block;
   }
+  .brand-name { 
+    width: 30%;
+  }
+.navigation-menu li a::after { 
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.377);
 }
+}
+
 @media screen and (max-width: 768px) {
   .navigation-menu ul {
     position: fixed;
