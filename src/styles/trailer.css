@@ -10,29 +10,23 @@
   width: 600px;
 }
 
-#Trailer h1 {
-  font-size: 50px;
-  margin-right: 10px;
-  text-shadow: 2px 2px;
-}
 
 #Trailer h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 80%;
+  
   font-size: 20px;
-  margin: 20px;
   text-align: justify;
   text-justify: distribute;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #000000;
-  text-shadow: 1px 1px #838383;
+  color: gray;
+  text-shadow: 1px 1px #000000;
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 #Trailer p {
   font-size: 30px;
@@ -79,7 +73,7 @@
 }
 
 .MachineClick { 
-  margin: 2%
+  margin-top: 20px;
 }
 
 @keyframes button-hover {
@@ -111,6 +105,18 @@
       width: 90%;
       height: 300px;
     }
+
+    #Trailer p {
+      margin: auto;
+      font-size: 1.5rem;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .MachineClick { 
+      justify-content: center;
+      text-align: center;
+    }
   }
 
 @media (max-width: 768px) {
@@ -125,10 +131,22 @@
     width: 90%;
     height: 300px;
   }
+  #Trailer p {
+    margin: auto;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
   .card-group {
     grid-template-columns: 1fr;
+  }
+  #Trailer p {
+    margin: auto;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
   }
 }

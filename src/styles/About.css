@@ -15,7 +15,7 @@
     height: 90px;
     margin: 10px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: inherit;
     transition: all 0.3s ease;
   }
   
@@ -43,7 +43,7 @@
 }
 
 .icon-I:hover {
-  color: #e948c6
+  color: #ea61cd
 }
 
 .icon-F:hover {

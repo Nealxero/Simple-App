@@ -34,14 +34,15 @@ function Navbar() {
       >
         <ul>
           <li>
-            <a href="#headerCard" onClick={closeMenu}>Home</a>
+            <a href="#headerCard" onClick={closeMenu}>Inicio</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="https://arcadeplanet.es/listado">Colección</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#Mapa">Direccion</a>
           </li>
+         
         </ul>
       </div>
     </nav>
