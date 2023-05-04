@@ -40,7 +40,7 @@ function Navbar() {
             <a href="https://arcadeplanet.es/listado">Colección</a>
           </li>
           <li>
-            <a href="#Mapa">Direccion</a>
+            <a href="#Mapa" onClick={closeMenu}>Direccion</a>
           </li>
          
         </ul>
