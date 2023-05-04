@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/Simple-App/src/styles/About.css";
+import "../../styles/About.css";
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 

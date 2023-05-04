@@ -6,7 +6,7 @@ import Content from "./Content.jsx";
 import Redes from "./Redes.jsx";
 import ArcadeScheduleAndPrices from "./Schedule&Price.jsx";
 import Intro from "./Intro.jsx";
-import "/workspace/Simple-App/src/styles/general.css";
+import "../../styles/general.css";
 
 //create your first component
 const Home = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/Simple-App/src/styles/Schedule&Price.css";
+import "../../styles/Schedule&Price.css";
 
 const ArcadeScheduleAndPrices = () => {
   return (

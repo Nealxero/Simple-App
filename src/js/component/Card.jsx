@@ -1,5 +1,6 @@
 import React from 'react';
-import "/workspace/Simple-App/src/styles/Card.css";
+
+import "../../styles/Card.css"
 const Card = ({ imageUrl }) => {
   return (
     <div className="card">

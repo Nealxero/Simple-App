@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-import "/workspace/Simple-App/src/styles/cookies.css";
+import "../../styles/cookies.css";
 
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(true);

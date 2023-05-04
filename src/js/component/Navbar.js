@@ -1,7 +1,7 @@
 import "/workspace/Simple-App/src/styles/navbar.css";
 import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.css";
+import "../../styles/navbar.css";
 
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);

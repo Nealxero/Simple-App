@@ -1,5 +1,5 @@
 import React from "react";
-import "/workspace/Simple-App/src/styles/intro.css";
+import "../../styles/intro.css";
 
 
 const Intro = () => {
