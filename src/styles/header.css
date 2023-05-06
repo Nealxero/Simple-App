@@ -35,8 +35,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the entire container */
-    opacity: 1; /* Set the opacity of the image */
+    object-fit: cover; 
+    opacity: 1; 
     z-index: 1; /* Set the z-index to be on top of the video */
   }
   @media only screen and (max-width: 767px) {

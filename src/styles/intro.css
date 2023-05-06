@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Press Start 2P', cursive;
 }
 
 
 #Intro h2 { 
   width: 80%;
-  font-size: 20px;
+  
   text-align: justify;
   text-justify:newspaper;
-  font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
   font-weight: 200;
   color: #ad8b4e;
@@ -24,3 +24,10 @@
  color: orangered;
  margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+#Intro h2 { 
+  font-size: 1rem;
+}
+
+ } 

@@ -8,38 +8,71 @@
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom:2rem;
-    border: 1px solid black ;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
     max-width: 620px;
-    border-radius:5% ;
+   
     font-family: 'Press Start 2P', cursive;
-    font-size: 1.5rem;
-    box-shadow: rgb(118, 106, 0) 0px 20px 30px -10px;
-    background: white;
+    
+    background: inherit;
   }
-  
-  .ScheduleStyle { 
-      margin: 1rem;
+ /* box-shadow: rgb(118, 106, 0) 0px 20px 30px -10px;  border-radius:5% ;*/
+
+ .ScheduleStyle { 
+    margin: 1rem;
+ }
+
+  .ScheduleStyle p{ 
+      margin: 0.5rem;
       color: #ad8b4e; 
       font-weight: bold;
+      font-size: 1.2rem;
   }
 
   .SheduleStyle h2{ 
-    font-family: 1.6rem;
+    font-size: 1.6rem;
     font-weight: bolder;
+    color: black ;
   }
   
-  .PriceStyle { 
-      margin:1rem;
+  .PriceStyle p { 
+      margin:0.5rem;
       color: green;
       font-weight: bold;
+      font-size: 1.2rem;
+  }
+
+  .PriceStyle h2{ 
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color:black
   }
   
   .ExtraStyle { 
       margin: 1rem;
-      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
       
   }
   
   .Disclaimer { 
       color:red
+  }
+
+  @media screen and (max-width: 768px) { 
+   .ScheduleStyle h2{
+    font-size: 1.2rem;
+   }
+   .ScheduleStyle p {
+    font-size: 0.8rem;
+   }
+   .PriceStyle H2 {
+    font-size: 1.2rem;
+   }
+   .PriceStyle P {
+    font-size: 0.8rem;
+   }
+
+   .ExtraStyle {
+    font-size: 0.7rem;
+   }
   }

@@ -11,6 +11,7 @@
   justify-content: center;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  z-index: 999;
 }
 
 .cookie-banner.hidden {
@@ -23,8 +24,8 @@
 }
 
 .cookie-banner button {
-  margin-left: 16px;
-  padding: 8px 16px;
+  margin-left: 5px;
+  padding: 8px 10px;
   background-color: #fff;
   color: #333;
   border: none;
@@ -33,5 +34,15 @@
 }
 
 .cookie-banner button:hover {
-  background-color: #f1f1f1;
+  background-color: #00fa2e;
+}
+
+@media screen and (max-width: 768px) {
+  .cookie-banner p {
+    font-size: 0.7rem;
+  }
+
+  .cookie-banner button {
+    font-size: 0.5rem
+  }
 }

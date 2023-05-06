@@ -6,7 +6,7 @@ const ArcadeScheduleAndPrices = () => {
     <div id="PriceBox" className="flicker-in-2"
   >
       <div className="ScheduleStyle" >
-        <h2>Nuestro horario habitual</h2>
+        <h2 >Nuestro horario habitual</h2>
         <p>Viernes = 17:00 - 21:00</p>
         <p>Sábados/Domingos/Festivos = 11:00 - 15:00 y 17:00 - 21:00</p>
       </div>
